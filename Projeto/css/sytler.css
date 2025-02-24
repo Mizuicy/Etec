@@ -1,0 +1,11 @@
+.Música{
+    display: block;
+    padding: 500px;
+    font-size: 20px;
+}
+
+.estrofe{
+    display: block;
+    white-space: pre-line;
+}
+
