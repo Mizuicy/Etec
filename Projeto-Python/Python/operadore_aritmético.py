@@ -10,7 +10,7 @@ print('Multiplicação', multiplicacao)
 divisao = 10 / 2.2 
 print('Divisão', divisao)
 
-divisao_inteiro = 10 // 2
+divisao_inteiro = 10 // 2 #Retorna uma divisão mais abreviada 
 print('Divisão inteira', divisao_inteiro)
 
 exponenciacao = 3 ** 10 
