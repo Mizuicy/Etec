@@ -12,3 +12,7 @@ table{
 h1{
     text-align: center;
 }
+
+.Color-gray{
+    background-color: gray;
+}
