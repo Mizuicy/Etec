@@ -1,4 +1,3 @@
-
 condicao1 = False
 condicao2 = False
 condicao3 = False
