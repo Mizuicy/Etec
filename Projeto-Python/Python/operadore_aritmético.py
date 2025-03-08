@@ -19,3 +19,9 @@ print('Exponenciação', exponenciacao)
 modulo = 3 % 2 #Retorna o resto da divisão
 print('Modulo', modulo)
 
+
+# 1️⃣ (Mais Alta) () Parênteses (3 + 2) * 4 → 20
+# 2️⃣ ** Exponenciação 2 ** 3 → 8
+# 3️⃣ *, /, //, %	Multiplicação, Divisão, Divisão Inteira e Módulo	10 / 2 * 5 → 25
+# 4️⃣ (Menos Alta)	+, -	Soma e Subtração	5 + 3 - 2 → 6
+ 
