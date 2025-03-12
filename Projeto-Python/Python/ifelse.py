@@ -29,10 +29,29 @@
 # print(x == y)  # False -> 10 não é igual a 5
 # print(x != y)  # True  -> 10 é diferente de 5
 
-entrada = input('[E]ntrar [S]air:')
-senha_digitada = input('Senha: ')
+# entrada = input('[E]ntrar [S]air:')
+# senha_digitada = input('Senha: ')
 
-if entrada == 'E' and senha_digitada == '123456':
-    print  ('Entrou') 
+# senha_permitida = '123456'
+
+# if (entrada == 'E'or entrada =='e') and senha_digitada == senha_permitida:
+#     print  ('Entrou') 
+# else:
+#     print('Erro ao entrar verificar ')
+
+
+# # Operador Lógico "not"
+# print(not True) #False
+# print(not False) #True
+numero = 10
+
+if numero > 1:
+    if numero > 2:
+        if numero > 3:
+            print('Número maior que 3')
+        else:
+            print('Número menor que 3')
+    else:
+        print('Número menor que 2')
 else:
-    print('Erro ao entrar verificar ')
+    print('Número menor que 1')
