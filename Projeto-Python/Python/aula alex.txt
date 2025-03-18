@@ -1,0 +1,75 @@
+# numero_1 = int(input('Digite o primeiro número: '))
+# numero_2 = int(input('Digite o segundo número: '))
+#
+# soma = numero_1 + numero_2
+#
+# print(type(numero_1))
+# print(type(numero_2))
+
+# print(soma)
+
+# Atividade 2
+
+# numero_1 = float(input('Digite o primeiro número: '))
+# numero_2 = float(input('Digite o segundo número: '))
+#
+# soma = numero_1 + numero_2
+# subt = numero_1 - numero_2
+# mult = numero_1 * numero_2
+# div = numero_1 / numero_2
+#
+# print(f"A soma dos números é {soma}\n" +
+#       f"A subtração dos números é {subt}\n" +
+#       f"A multiplica dos números é {mult}2\n" +
+#       f"A Divisão dos números = {div}\n")
+
+# Atividade 3
+
+# nota1 = float(input('Digite o primeiro número: '))
+# nota2 = float(input('Digite o segundo número: '))
+# nota3 = float(input('Digite o terceiro número: '))
+# nota4 = float(input('Digite o quarto número: '))
+#
+#
+# media = (nota1 + nota2 + nota3 + nota4) / 4
+#
+# print("Sua media = {}".format(media))
+
+# Atividade 4
+
+# distancia = float(input('Digite a quantidade de Km: '))
+# gasolinaGasta = float(input('Digite a quantidade Gasolina: '))
+#
+# totalGasto = distancia / gasolinaGasta
+#
+# print("Fora {:.0f} Km {:.0f} gasto total {:.0f} por km".format(distancia, gasolinaGasta, totalGasto))
+
+#Atividade 5
+
+# metros = float(input('Digite a quantidade de Metros: '))
+# centimetros = metros * 100
+#
+# print("Centimetros igual a = {:.0f}".format(centimetros))
+
+#Atividade 6
+
+# vendedor = input('Digite o nome do vendedor: ')
+# salarioF = float(input('Digite o salario: '))
+# valorVenda = float(input('Digite o valor da Venda: '))
+#
+# comissao = valorVenda * 0.15
+# salarioFinal = salarioF + comissao
+#
+# print("Nome do {} \n"
+#       "Salário fixo: R$:{} \n"
+#       "Salário final com comissão: R$:{}".format(vendedor,salarioF,salarioFinal))
+
+#Atividade 7
+
+comprimento = float(input('Digite o comprimento: '))
+largura = float(input('Digite o largura: '))
+
+tamanhoTerreno = comprimento * largura
+
+print(tamanhoTerreno)
+
