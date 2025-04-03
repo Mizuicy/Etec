@@ -1,14 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <title>Formulario</title>
 </head>
+
 <body>
-    <form action="">
-        <label for="name">Nome</label>
-        <input type="text" id="name" name="name" required>
-    </form>
+    <main>
+        <form action="" method="" class="myForm">
+            <fieldset>  <legend>FICHA DE CADASTRO</legend>
+                <div class="divMyForm">
+                    
+                    <label for="itext"> Nome Aluno </label>
+                    <input type="text" id="itext" maxlength="30" placeholder="Digite nome completo">
+                </div>
+
+                <div class="divMyForm"> 
+                    <label for="idate2">Data Nascimento</label>
+                    <input type="date" id="idate2" value="Apenas leitura">
+                </div>
+
+                <div class="divMyForm">
+                    <label for="inum"> Nome Responsával </label>
+                    <input type="text" id="num" maxlength="30" placeholder="Digite nome completo" required>
+                </div>
+
+                <div class="divMyForm">
+                    <label for="iemail"> E-Mail </label>
+                    <input type="email" id="iemail" placeholder="Digite o E-Mail" required>
+                </div>
+
+                <div class="divMyForm">
+                    <label for="ICPF">CPF</label>
+                    <input type="text" id="ICPF" placeholder="000.000.000-00" pattern="\d{3}.\d{3}.\d{3}-\d{2}"
+                        maxlength="14" required>
+                </div>
+
+                <div class="divMyForm">
+                    <label for="itel">Telefone</label>
+                    <input type="tel" id="itel" placeholder="(DD)0000-0000"  required>
+                </div>
+
+                <div class="divMyForm">
+                    <label for="ipass"> Senha</label>
+                    <input type="password" id="inpass" required maxlength="10" minlength="6">
+                    <input type="checkbox" onclick="mostrarPass()"> <label for=""></label>
+                </div>
+
+                <div>
+                    <label for="">Serie do Aluno</label>
+                    <select name="select" id="slct">
+                        <option value="valor1 ">série 1°</option>
+                        <option value="valor2 ">série 2°</option>
+                        <option value="valor3 ">série 3°</option>
+                        <option value="valor4 ">série 4°</option>
+                        <option value="valor5 ">série 5°</option>
+                    </select>
+                </div>
+
+                <div>
+                    <p>Qual horario</p>
+                    <label for=""><input type="radio" name="radio" value="1">Mãnha</label>
+                    <label for=""><input type="radio" name="radio" value="2">Tarde</label>
+                    <label for=""><input type="radio" name="radio" value="3">Noite</label>
+                </div>
+
+                <div class="divCheckbox">
+                    <p>Atividade extra curricular</p>
+                    <label for=""><input type="checkbox">Música</label>
+                    <label for=""><input type="checkbox">Judô</label>
+                    <label for=""><input type="checkbox">Pintura</label>
+                    <label for=""><input type="checkbox">Futebol</label>
+                    <label for=""><input type="checkbox">Ballet</label>
+                    <label for=""><input type="checkbox">Vôlei</label>
+                </div>
+
+                <div class="divMybutton">
+                    <input type="submit" value="Enviar">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <script src="asset/javascript/form.js"></script>
 </body>
 </html>

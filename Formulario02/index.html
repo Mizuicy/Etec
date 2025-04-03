@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sytle.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <main>
+        <form action="" method="">
+            <fieldset>
+                <div>
+                    <legend>Dados pessoais</legend>
+                    <label for="itext"> Campo de texto </label>
+                    <input type="text" id="itext" maxlength="18" placeholder="Digite nome completo">
+                </div>
+
+                <div> <label for="itext2"> Campo somente leitura</label>
+                    <input type="text" id="itext2" readonly value="Apenas leitura">
+                </div>
+
+                <div>
+                    <label for="inum"> Campo </label>
+                    <input type="number" id="num">
+                </div>
+
+                <div>
+                    <label for="idade"> Campo data</label>
+                    <input type="date" id="idate">
+                </div>
+
+                <div>
+                    <label for="ifile"> Campos de arquivo</label>
+                    <input type="file" id="ifile">
+                </div>
+
+                <div>
+                    <label for="ipass"> CAmpo de senha</label>
+                    <input type="password" id="inpass" required maxlength="10" minlength="6">
+                    <input type="checkbox" onclick="mostrarPass()"> <label for=""></label>mostrar
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Campos de Opções</legend>
+                <div>
+                    <p>Escolha sim ou não </p>
+                    <label for=""><input type="radio" name="iradio" value="1">Sim</label>
+                    <label for=""><input type="radio" name="iradio" value="1">Não</label>
+                </div>
+
+                <div>
+                    <p>Escolha todas as frutas que você gosta</p>
+                    <label for=""><input type="checkbox" name="icheck" value="1">Manga</label>
+                    <label for=""><input type="checkbox" name="icheck" value="2">Uva</label>
+                    <label for=""><input type="checkbox" name="icheck" value="3">Pera</label>
+                    <label for=""><input type="checkbox" name="icheck" value="4">Maça</label>
+                    <label for=""><input type="checkbox" name="icheck" value="5">Bannana</label>
+                </div>
+
+                <div>
+                    <label for="slct">Select simples</label>
+                    <select name="select" id="slct">
+                        <option value="valor1">valor1</option>
+                        <option value="valor2" selected>Valor 2</option>
+                        <option value="valor3">Valor3</option>
+                    </select>
+
+                </div>
+
+                <div>
+                    <label for="slct">Select multiplo</label>
+                    <select name="select" id="slct" multiple>
+                        <option value="valor1">valor1</option>
+                        <option value="valor2" selected>Valor 2</option>
+                        <option value="valor3">Valor3</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="tarea"> Área de texto</label>
+                    <textarea name="tarea" id="tarea" placeholder="Deixei sua reclamação" maxlength="300"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Enviar">
+                    <button type="reset">Limpar</button>
+                </div>
+
+
+            </fieldset>
+        </form>
+    </main>
+
+    <script src="javascript/form.js"></script>
+</body>
+
+</html>
