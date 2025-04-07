@@ -1,56 +1,65 @@
-body{
-    background-image: linear-gradient(to top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
-}
-.myForm{
-    font-family: Arial, Helvetica, sans-serif;
-    width: 40%;
-    background: rgba(255, 255, 255, 0.75);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(12.7px);
-    -webkit-backdrop-filter: blur(12.7px);
-    border: 1px solid rgba(255, 255, 255, 0.99);
-    margin: 0 auto;
-}
-.myForm fieldset{
-    border: none;
-}
-.myForm  legend{
-    text-align: center;
+body {
+  background-image: linear-gradient(
+    to top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
 }
 
-.divMyForm{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
+.myForm {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 40%;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.7px);
+  -webkit-backdrop-filter: blur(12.7px);
+  border: 1px solid rgba(255, 255, 255, 0.99);
+  margin: 0 auto;
 }
 
-.divMyForm input{
-    padding: 15px;
-    width: 95%;
-    border: 1px solid cornflowerblue;
-    border-radius: 20px;
-}
-.divCheckbox input{
-    display: inline-block;
-    border-radius: 4px;
-    position: relative;
-    vertical-align: middle;
-    cursor: pointer;
-    accent-color: red;
+.myForm fieldset {
+  border: none;
 }
 
-
-
-.divMybutton input, button{
-    margin-top: 10px;
-    padding: 15px;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.75);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(12.7px);
-    -webkit-backdrop-filter: blur(12.7px);
-    border: 1px solid rgba(255, 255, 255, 0.99);
+.myForm legend {
+  text-align: center;
 }
 
+.divMyForm {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.divMyForm input {
+  padding: 15px;
+  width: 95%;
+  border: 1px solid cornflowerblue;
+  border-radius: 20px;
+}
+
+.divCheckbox input {
+  display: inline-block;
+  border-radius: 4px;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  accent-color: red;
+}
+
+.divMybutton input,
+button {
+  margin-top: 10px;
+  padding: 15px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.7px);
+  -webkit-backdrop-filter: blur(12.7px);
+  border: 1px solid rgba(255, 255, 255, 0.99);
+}
