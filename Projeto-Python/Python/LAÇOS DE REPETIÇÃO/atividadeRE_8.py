@@ -22,5 +22,3 @@ while i < 10:
     print(f"Sexo: {sexo}")
     print(f"Salario: R$:{salario}")
     i += 1
-
-print("Fim do programa")
