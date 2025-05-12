@@ -17,4 +17,3 @@ while True:
     
     if resposta.upper() == "N":
         break
-2
