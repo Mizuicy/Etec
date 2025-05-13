@@ -24,5 +24,5 @@ while True:
     if resposta.upper() == "N":
         print(f"Total de carros 2000: {carros_2000}")
         print(f"Total de carros 2001: {carros_2001}")
-        print(f"Total de carros com desconto: {carros_2000 + carros_2001}")
+        print(f"Total de carros que saiu: {carros_2000 + carros_2001}")
         break
