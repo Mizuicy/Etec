@@ -7,4 +7,3 @@ for i in range(limite_Inicial, limite_Maximo, 1):
         print(f" {i}° Número par")
     elif i % 2 == 1:
         print(f" {i}° Número ímpar")
-print("Fim do programa")
